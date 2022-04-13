@@ -7,9 +7,7 @@ void radota()
 {
 	int* a = new int;
 	int* b = new int;
-	int* g = new int;
 	int* c = new int;
-	char* j = new char;
 	for (int i = 0; true; i++)
 	{
 		cout << " Ether a-> ";
@@ -23,26 +21,22 @@ void radota()
 		{
 		case 1: 
 		{
-			*g = *a+*b ;
-			*j = '+';
+			cout << "\n\t" << *a << " + " << *b << " = " << *a+*b;
 			break;
 		}
 		case 2:
 		{
-			*g = *a - *b;
-			*j = '-';
+			cout << "\n\t" << *a << " - " << *b << " = " << *a - *b;
 			break;
 		}
 		case 3:
 		{
-			*g = *a * *b;
-			*j = '*';
+			cout << "\n\t" << *a << " * " << *b << " = " << *a * *b;
 			break;
 		}
 		case 4:
 		{
-			*g = *a / *b;
-			*j = '/';
+			cout << "\n\t" << *a << " / " << *b << " = " << *a / *b;
 			break;
 		}
 		default: {
@@ -54,7 +48,6 @@ void radota()
 		}
 		}
 		system("cls");
-		cout << "\n\t" << *a << " " << *j << " " << *b << " = " << *g;
 		int* y = new int;
 		cout << "\n\n\nProdol?\n\t1 - yes\n\tno - 2\n\t";
 		cin >> *y;
