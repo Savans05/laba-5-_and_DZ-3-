@@ -2,6 +2,6 @@
 
 int main()
 {
-	radota();
+	radota( );
 	return 0;
 }
